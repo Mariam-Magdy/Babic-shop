@@ -1,0 +1,83 @@
+html,body{
+   height: 100%;
+}
+body{
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: rgb(190, 12, 12);
+    padding: 100px;
+    
+
+}
+
+.car{
+    height: 150px;
+    width: 150px; 
+    position: absolute; 
+    bottom: 10px; 
+    animation-name: move;
+    animation: move 5s linear infinite;
+}
+
+.baby{
+    height: 200px;
+    width: 250px;
+}
+
+h1{
+    font-family: 'Dancing Script',cursive;
+}
+
+.p{
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    font-size: 17px;
+    font-family: 'myfont',cursive ;
+}
+
+.h{
+    text-align: left;
+}
+
+.shop{
+    padding: 10px;
+    width: 105px;
+    height: 30px;
+    font-size: 18px;
+    font-family: 'Lobster Two',cursive;
+    background-color: rgb(255, 6, 6);
+    border:20px;  
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.l{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+li{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Lobster Two',cursive;
+}
+
+@keyframes move{
+    from{transform: translateX(1500px);}
+    to{transform: translateX(-270px)}
+}
+
+@font-face{
+    font-family: 'myfont';
+    src: url('../coronet.zip')
+
+}
